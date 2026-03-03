@@ -5,21 +5,16 @@ import java.io.File;
 import java.io.IOException;
 import java.text.SimpleDateFormat;
 import java.time.Duration;
-import java.util.ArrayList;
 import java.util.Date;
-import java.util.List;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.Logger;
 import org.openqa.selenium.By;
-import org.openqa.selenium.Keys;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.support.ui.ExpectedConditions;
-import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class BrowserUtility {
@@ -31,19 +26,12 @@ public class BrowserUtility {
 	public BrowserUtility(WebDriver driver) {
 		logger.info("Launching Browser ");
 		this.driver = driver;
-		wait = new WebDriverWait(driver, Duration.ofSeconds(50L));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
 	}
 
 	public WebDriver getDriver() {
 		return driver;
 	}
-
-//	public BrowserUtility() {
-//		logger.info("Launching Browser ");
-//		driver = new ChromeDriver();
-//		wait = new WebDriverWait(driver, Duration.ofSeconds(30L));
-//
-//	}
 
 	public void goToWebsite(String url) {
 		logger.info("Visiting the website " + url);
