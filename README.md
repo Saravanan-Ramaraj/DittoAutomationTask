@@ -1,6 +1,4 @@
-<<<<<<< HEAD
 
-=======
 # Ditto Automation Task - Calculating Premium with Add-Ons #
 
 This repository contains an automated test framework designed to validate the premium calculation logic for the Ditto health insurance application.  
@@ -52,7 +50,7 @@ These help in understanding execution flow, pass/fail status, and failure contex
 ___
 
 ## 📦 Project Structure ##
->>>>>>> 0be18c312b778b37eddb22511c218f20ee76c0c3
+
 ```
 DittoAutomationTask
 ├─ .classpath
@@ -91,9 +89,6 @@ DittoAutomationTask
 │        └─ log4j2.xml
 └─ testng.xml
 
-<<<<<<< HEAD
-```
-=======
 ```
 ___
 
@@ -102,4 +97,3 @@ You can run the project on your local system for that:
 
 1. Clone the Project on Local System: git clone https://github.com/Saravanan-Ramaraj/DittoAutomationTask.git
 2. Execute tests via Maven: mvn test
->>>>>>> 0be18c312b778b37eddb22511c218f20ee76c0c3
