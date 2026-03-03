@@ -26,7 +26,7 @@ public class BrowserUtility {
 	public BrowserUtility(WebDriver driver) {
 		logger.info("Launching Browser ");
 		this.driver = driver;
-		wait = new WebDriverWait(driver, Duration.ofSeconds(30));
+		wait = new WebDriverWait(driver, Duration.ofSeconds(50));
 	}
 
 	public WebDriver getDriver() {
@@ -47,7 +47,6 @@ public class BrowserUtility {
 	public void clickOn(By locator) {
 		logger.info("Finding Element with the locator" + locator);
 		WebElement element = wait.until(ExpectedConditions.elementToBeClickable(locator));
-
 		logger.info("Element Found and now performing Click");
 
 		element.click();
@@ -55,10 +54,7 @@ public class BrowserUtility {
 
 	public void enterText(By locator, String textToEnter) {
 		logger.info("Finding Element with the locator" + locator);
-
-		// WebElement element = driver.get().findElement(locator);
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(locator));
-
 		logger.info("Element Found and now enter text " + textToEnter);
 
 		element.sendKeys(textToEnter);
@@ -66,10 +62,7 @@ public class BrowserUtility {
 
 	public void clearText(By textBoxLocator) {
 		logger.info("Finding Element with the locator" + textBoxLocator);
-
-		// WebElement element = driver.get().findElement(textBoxLocator);
 		WebElement element = wait.until(ExpectedConditions.visibilityOfElementLocated(textBoxLocator));
-
 		logger.info("Element Found and clearing the text box field");
 
 		element.clear();

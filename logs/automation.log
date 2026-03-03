@@ -1,43 +1,84 @@
-2026-03-03 19:10:13 [main] INFO com.ditto.listeners.TestListener Test Suite Started 
-2026-03-03 19:10:17 [main] INFO com.ditto.listeners.TestListener validatePremiumCalculationTest 
-2026-03-03 19:10:17 [main] INFO com.ditto.listeners.TestListener Validating the Premium amount after adding the Add-Ons 
-2026-03-03 19:10:17 [main] INFO com.ditto.pages.PlanSelectionPage Launching Browser  
-2026-03-03 19:10:17 [main] INFO com.ditto.pages.PlanSelectionPage Visiting the website https://app.joinditto.in/fq 
-2026-03-03 19:10:17 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Optima Secure'] 
-2026-03-03 19:10:17 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
-2026-03-03 19:10:17 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Next'] 
-2026-03-03 19:10:19 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
-2026-03-03 19:10:19 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Next'] 
-2026-03-03 19:10:19 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
-2026-03-03 19:10:19 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Next'] 
-2026-03-03 19:10:19 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
-2026-03-03 19:10:19 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Continue'] 
-2026-03-03 19:10:19 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
-2026-03-03 19:10:19 [main] INFO com.ditto.pages.UserDetailsPage Launching Browser  
-2026-03-03 19:10:19 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //span[text()='Self']/following::div[text()='Male'] 
-2026-03-03 19:10:20 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now performing Click 
-2026-03-03 19:10:20 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //span[text()='Next step'] 
-2026-03-03 19:10:20 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now performing Click 
-2026-03-03 19:10:21 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //input[@placeholder='Your age'] 
-2026-03-03 19:10:21 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now enter text 28 
-2026-03-03 19:10:21 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //input[@placeholder='Enter your pin code'] 
-2026-03-03 19:10:21 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now enter text 627756 
-2026-03-03 19:10:22 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //span[text()='Calculate Premium']/ancestor::button 
-2026-03-03 19:10:22 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now performing Click 
-2026-03-03 19:10:22 [main] INFO com.ditto.pages.PremiumPage Launching Browser  
-2026-03-03 19:10:22 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //span[text()='Policy Periods']/following::span[3] 
-2026-03-03 19:10:25 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile ₹13,680 
-2026-03-03 19:10:25 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Unlimited Restoration']/following::span[5] 
-2026-03-03 19:10:25 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile ₹68.40 
-2026-03-03 19:10:25 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //button[contains(@id, 'other-add-ons')] 
-2026-03-03 19:10:25 [main] INFO com.ditto.pages.PremiumPage Element Found and now performing Click 
-2026-03-03 19:10:25 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Hospital Cash Benefit']/following::span[5] 
-2026-03-03 19:10:26 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile ₹492.10 
-2026-03-03 19:10:26 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Unlimited Restoration'] 
-2026-03-03 19:10:26 [main] INFO com.ditto.pages.PremiumPage Element Found and now performing Click 
-2026-03-03 19:10:26 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Hospital Cash Benefit'] 
-2026-03-03 19:10:28 [main] INFO com.ditto.pages.PremiumPage Element Found and now performing Click 
-2026-03-03 19:10:29 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //span[text()='Policy Periods']/following::span[3] 
-2026-03-03 19:10:32 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile ₹14,241 
-2026-03-03 19:10:32 [main] INFO com.ditto.listeners.TestListener validatePremiumCalculationTest PASSED! 
-2026-03-03 19:10:33 [main] INFO com.ditto.listeners.TestListener Test Suite Finished 
+2026-03-03 21:30:41 [main] INFO com.ditto.listeners.TestListener Test Suite Started 
+2026-03-03 21:30:48 [main] INFO com.ditto.listeners.TestListener validatePremiumCalculationTest 
+2026-03-03 21:30:48 [main] INFO com.ditto.listeners.TestListener Validating the Premium amount after adding the Add-Ons 
+2026-03-03 21:30:48 [main] INFO com.ditto.pages.PlanSelectionPage Launching Browser  
+2026-03-03 21:30:48 [main] INFO com.ditto.pages.PlanSelectionPage Visiting the website https://app.joinditto.in/fq 
+2026-03-03 21:30:48 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Optima Secure'] 
+2026-03-03 21:30:48 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
+2026-03-03 21:30:49 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Next'] 
+2026-03-03 21:30:50 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
+2026-03-03 21:30:50 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Next'] 
+2026-03-03 21:30:50 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
+2026-03-03 21:30:50 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Next'] 
+2026-03-03 21:30:50 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
+2026-03-03 21:30:50 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Continue'] 
+2026-03-03 21:30:50 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
+2026-03-03 21:30:50 [main] INFO com.ditto.pages.UserDetailsPage Launching Browser  
+2026-03-03 21:30:50 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //span[text()='Self']/following::div[text()='Male'] 
+2026-03-03 21:31:00 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now performing Click 
+2026-03-03 21:31:00 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //span[text()='Next step'] 
+2026-03-03 21:31:00 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now performing Click 
+2026-03-03 21:31:00 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //input[@placeholder='Your age'] 
+2026-03-03 21:31:01 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now enter text 28 
+2026-03-03 21:31:01 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //input[@placeholder='Enter your pin code'] 
+2026-03-03 21:31:01 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now enter text 627756 
+2026-03-03 21:31:01 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //span[text()='Calculate Premium']/ancestor::button 
+2026-03-03 21:31:01 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now performing Click 
+2026-03-03 21:31:01 [main] INFO com.ditto.pages.PremiumPage Launching Browser  
+2026-03-03 21:31:01 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //span[text()='Policy Periods']/following::span[3] 
+2026-03-03 21:31:05 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile ₹13,680 
+2026-03-03 21:31:05 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Unlimited Restoration']/following::span[5] 
+2026-03-03 21:31:05 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile ₹68.40 
+2026-03-03 21:31:05 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //button[contains(@id, 'other-add-ons')] 
+2026-03-03 21:31:05 [main] INFO com.ditto.pages.PremiumPage Element Found and now performing Click 
+2026-03-03 21:31:05 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Hospital Cash Benefit']/following::span[5] 
+2026-03-03 21:31:05 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile ₹492.10 
+2026-03-03 21:31:05 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Unlimited Restoration'] 
+2026-03-03 21:31:05 [main] INFO com.ditto.pages.PremiumPage Element Found and now performing Click 
+2026-03-03 21:31:05 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Hospital Cash Benefit'] 
+2026-03-03 21:31:08 [main] INFO com.ditto.pages.PremiumPage Element Found and now performing Click 
+2026-03-03 21:31:08 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //span[text()='Policy Periods']/following::span[3] 
+2026-03-03 21:31:10 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile Buy this policy 
+2026-03-03 21:31:11 [main] WARN com.ditto.listeners.TestListener validatePremiumCalculationTest SKIPPED! 
+2026-03-03 21:31:13 [main] INFO com.ditto.listeners.TestListener validatePremiumCalculationTest 
+2026-03-03 21:31:13 [main] INFO com.ditto.listeners.TestListener Validating the Premium amount after adding the Add-Ons 
+2026-03-03 21:31:13 [main] INFO com.ditto.pages.PlanSelectionPage Launching Browser  
+2026-03-03 21:31:13 [main] INFO com.ditto.pages.PlanSelectionPage Visiting the website https://app.joinditto.in/fq 
+2026-03-03 21:31:14 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Optima Secure'] 
+2026-03-03 21:31:14 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
+2026-03-03 21:31:14 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Next'] 
+2026-03-03 21:31:15 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
+2026-03-03 21:31:15 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Next'] 
+2026-03-03 21:31:15 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
+2026-03-03 21:31:15 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Next'] 
+2026-03-03 21:31:15 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
+2026-03-03 21:31:16 [main] INFO com.ditto.pages.PlanSelectionPage Finding Element with the locatorBy.xpath: //span[text()='Continue'] 
+2026-03-03 21:31:16 [main] INFO com.ditto.pages.PlanSelectionPage Element Found and now performing Click 
+2026-03-03 21:31:16 [main] INFO com.ditto.pages.UserDetailsPage Launching Browser  
+2026-03-03 21:31:16 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //span[text()='Self']/following::div[text()='Male'] 
+2026-03-03 21:31:16 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now performing Click 
+2026-03-03 21:31:17 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //span[text()='Next step'] 
+2026-03-03 21:31:17 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now performing Click 
+2026-03-03 21:31:17 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //input[@placeholder='Your age'] 
+2026-03-03 21:31:17 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now enter text 28 
+2026-03-03 21:31:18 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //input[@placeholder='Enter your pin code'] 
+2026-03-03 21:31:18 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now enter text 627756 
+2026-03-03 21:31:18 [main] INFO com.ditto.pages.UserDetailsPage Finding Element with the locatorBy.xpath: //span[text()='Calculate Premium']/ancestor::button 
+2026-03-03 21:31:18 [main] INFO com.ditto.pages.UserDetailsPage Element Found and now performing Click 
+2026-03-03 21:31:18 [main] INFO com.ditto.pages.PremiumPage Launching Browser  
+2026-03-03 21:31:18 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //span[text()='Policy Periods']/following::span[3] 
+2026-03-03 21:31:21 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile ₹13,680 
+2026-03-03 21:31:21 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Unlimited Restoration']/following::span[5] 
+2026-03-03 21:31:21 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile ₹68.40 
+2026-03-03 21:31:21 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //button[contains(@id, 'other-add-ons')] 
+2026-03-03 21:31:21 [main] INFO com.ditto.pages.PremiumPage Element Found and now performing Click 
+2026-03-03 21:31:22 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Hospital Cash Benefit']/following::span[5] 
+2026-03-03 21:31:22 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile ₹492.10 
+2026-03-03 21:31:22 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Unlimited Restoration'] 
+2026-03-03 21:31:22 [main] INFO com.ditto.pages.PremiumPage Element Found and now performing Click 
+2026-03-03 21:31:22 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //input[@name='Hospital Cash Benefit'] 
+2026-03-03 21:31:25 [main] INFO com.ditto.pages.PremiumPage Element Found and now performing Click 
+2026-03-03 21:31:25 [main] INFO com.ditto.pages.PremiumPage Finding Element with the locatorBy.xpath: //span[text()='Policy Periods']/following::span[3] 
+2026-03-03 21:31:27 [main] INFO com.ditto.pages.PremiumPage Element Found and now returning the visibile ₹14,241 
+2026-03-03 21:31:27 [main] INFO com.ditto.listeners.TestListener validatePremiumCalculationTest PASSED! 
+2026-03-03 21:31:28 [main] INFO com.ditto.listeners.TestListener Test Suite Finished 
